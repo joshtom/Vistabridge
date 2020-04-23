@@ -1,0 +1,353 @@
+body{
+    width: 100%;
+    position: relative;
+}
+.navbar{
+    background-color: #192a56!important;position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav-item:active{
+    color: #e67e22;
+}
+.navbar-brand{
+    color: #ffffff!important;
+}
+.nav-link{
+    margin-left: 5px;
+}
+.nav-link{
+    color: #ffffff!important;
+}
+.nav-link:hover{
+    color: #e67e22!important;
+}
+.hero{
+    width: 100%;
+    height: 697px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/hero/bg-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.hero-text{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+.main-text{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.hero-text span{
+    color: #e67e22;
+    line-height: 2em;
+}
+.sub-text{
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2em;
+}
+.small-text{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2em;
+    letter-spacing: 5px;
+}
+.hero-button-wrapper{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+}
+.btn-company{
+    background: #e67e22;
+    color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 47%;
+}
+.btn-services{
+    background: #192a56;
+    color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 47%;
+    margin-left: 20px;
+}
+.quote{
+    width: 100%;
+    height: 110px;
+    background: #e67e22;
+}
+.quote-text{
+    min-height: 90px;
+    margin-top: 5px;
+    padding: 25px;
+    display: flex;
+    justify-content: flex-start;
+}
+.quote-text p{
+    color: #ffffff;
+}
+.quote-button{
+    height: 90px;
+    display: flex;
+    justify-content: flex-end
+}
+.btn-quote{
+    background: #192a56;
+    color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 50%;
+    margin-top: 30px;
+}
+.about-us{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    margin-top: 80px;
+}
+.title{
+    padding: 10px;
+}
+.title span{
+    color: #e67e22;
+}
+.title h2{
+    font-weight: bolder;
+    font-size: 40px;
+    color: #192a56;
+}
+.title-subtext{
+    color: #192a56;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.about-text{
+    width: 50%;
+    height: 200px;
+}
+.about-text p{
+    color: #192a56;
+}
+.btn-read-more{
+    background: #e67e22;
+    color: #ffffff;
+    border: none;
+    height: 50px;
+    width: 40%;
+}
+.about-image{
+    width: 50%;
+    height: 290px;
+    display: flex;
+}
+.about-image img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #bdc3c7;
+    padding: 5px;
+    background: #192a56;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.our-services{
+    width: 100%;
+    min-height: 600px;
+}
+.nav-tabs a{
+    color: #192a56!important;
+}
+.nav-img{
+    width: 100%;
+    height: 290px;
+}
+.nav-img img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.our-services p, span{
+    color: #192a56;
+}
+.our-services i{
+    color: #e67e22;
+    font-size: 16px;
+}
+.our-services li{
+    list-style-type: none;
+}
+.our-approach{
+    width: 100%;
+    min-height: 600px;
+}
+.our-approach-icon-wrapper{
+    height: auto;
+}
+.our-approach-icon-wrapper i{
+    color: #192a56;
+}
+.our-approach-icon-wrapper i:hover{
+    color: #e67e22;
+}
+.our-approach-text-wrapper{
+    height: auto;
+}
+.our-approach-text-wrapper p{
+    color: #192a56;
+}
+.icon-caption{
+    color: #192a56;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.our-values{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/our-values/1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.our-blog{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+}
+.card-title, .card-text, .text-muted{
+    color: #192a56!important;
+}
+.contact{
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../images/contact/2.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.contact .card{
+    background: transparent;
+    border-radius: 0px;
+    border: 1px solid #bdc3c7;
+}
+.contact-button{
+    display: flex;
+    justify-content: center;
+}
+.btn-contact{
+    background: #192a56;
+    color: #ffffff;
+    border: none;
+    width: 30%;
+    height: 50px;
+}
+.btn-contact:hover{
+    color: #e67e22;
+}
+form legend{
+    color: #ffffff;
+    font-size: 38px;
+    letter-spacing: 5px;
+}
+form label{
+    color: #ffffff;
+}
+form input{
+    background: transparent!important;
+    border-radius: 0px!important;
+    caret-color: #ffffff;
+}
+
+textarea{
+    background: transparent!important;
+    border-radius: 0px!important;
+    caret-color: #ffffff;
+}
+textarea::placeholder{
+    color: #ffffff!important;
+}
+input::placeholder{
+    color: #ffffff!important;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    background: #192a56;
+}
+footer h5{
+    color: #e67e22;
+}
+footer p{
+    color: #ffffff;
+}
+.social-links{
+    width: 50%;
+    height: auto;
+}
+.social-links i{
+    color: #ffffff;
+}
+.social-links i:hover{
+    color: #e67e22;
+}
+.btn{
+    width: 50%;
+    background: #e67e22;
+    color: #ffffff;
+    border-radius: 0px!important;
+}
+.btn:hover{
+    color: #ffffff!important;
+}
+.contact-info{
+    width: 100%;
+    height: auto;
+}
+footer li{
+    list-style-type: none;
+}
+.contact-icon{
+    height: auto;
+    width: 8%;
+}
+.contact-icon i{
+    color: #e67e22;
+}
+.contact-detail{
+    height: auto;
+    width: 92%;
+}
+.contact-detail a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.contact-detail a:hover{
+    color: #e67e22;
+}
+.copyright{
+    height: auto;
+    width: 100%;
+}
+.copyright a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.copyright span{
+    color: #e67e22;
+}
+.alektah a{
+    text-align: right;
+}
